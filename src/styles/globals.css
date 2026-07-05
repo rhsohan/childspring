@@ -1,0 +1,237 @@
+@import "tailwindcss";
+
+@theme {
+  /* Exact extracted colors from ChildSpring logo.png */
+  --color-primary: #170EB3;
+  /* Vibrant violet royal blue from "ChildSpring" text */
+  --color-secondary: #034A6E;
+  /* Deep navy-teal from the bird body & side leaves */
+  --color-accent: #F15833;
+  /* Coral orange-red from the bird's top wing */
+  --color-success: #1C9E33;
+  /* Sprout leaf green from the central leaf */
+
+  /* Premium Neutral Scale tailored to blend with the brand colors */
+  --color-bg-main: #F5F8FC;
+  /* Soft sky/blue-gray background tint */
+  --color-bg-section: #EBF0F7;
+  /* Slightly deeper slate-blue for alternate sections */
+  --color-bg-card: rgba(255, 255, 255, 0.85);
+  /* Semi-transparent card backing */
+  --color-text-primary: #0D1B2A;
+  /* Deep navy slate for high-contrast premium text */
+  --color-text-secondary: #4A5E73;
+  /* Slate gray for descriptions and subtitles */
+  --color-border-divider: rgba(3, 74, 110, 0.1);
+  /* Soft teal border line tint */
+
+  --font-sans: 'Nunito', 'Open Sans', system-ui, sans-serif;
+  --font-heading: 'Poppins', system-ui, sans-serif;
+}
+
+/* Base resets & typography */
+@layer base {
+
+  body {
+    @apply text-text-primary font-sans antialiased overflow-x-hidden;
+    /* Soft color mesh blending royal blue and teal to create a premium, alive background */
+    background-color: #F5F8FC;
+    background-image:
+      radial-gradient(at 0% 0%, rgba(23, 14, 179, 0.03) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(3, 74, 110, 0.05) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(23, 14, 179, 0.02) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, rgba(3, 74, 110, 0.03) 0px, transparent 50%);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading font-bold text-secondary;
+  }
+}
+
+/* Custom premium transitions and styles */
+@layer utilities {
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .glassmorphism-dark {
+    background: rgba(3, 74, 110, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+
+  .bg-gradient-primary {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  }
+
+  .bg-gradient-accent {
+    background: linear-gradient(135deg, var(--color-accent) 0%, #FF8A66 100%);
+  }
+
+  .bg-gradient-nature {
+    background: linear-gradient(135deg, var(--color-success) 0%, #46C35D 100%);
+  }
+
+  .bg-hero-traffic-blue {
+    background-color: #005B8C;
+    background-image:
+      radial-gradient(at 0% 0%, rgba(23, 14, 179, 0.45) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(3, 74, 110, 0.6) 0px, transparent 50%),
+      radial-gradient(at 80% 100%, rgba(0, 91, 140, 0.8) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, rgba(241, 88, 51, 0.15) 0px, transparent 40%);
+  }
+
+  /* Custom soft scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg-section);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-secondary);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-15px) rotate(3deg);
+  }
+
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes float-delayed {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(15px) rotate(-3deg);
+  }
+
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+.animate-float-delayed {
+  animation: float-delayed 8s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes pulse-soft {
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.8;
+    transform: scale(1.03);
+  }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 4s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+@keyframes textShimmer {
+  0% {
+    background-position: 0% center;
+  }
+
+  50% {
+    background-position: 100% center;
+  }
+
+  100% {
+    background-position: 0% center;
+  }
+}
+
+.animate-gradient-text {
+  background-size: 200% auto;
+  animation: textShimmer 6s linear infinite;
+  will-change: background-position;
+}
+
+.animate-gradient-text-fast {
+  background-size: 200% auto;
+  animation: textShimmer 4s linear infinite;
+  will-change: background-position;
+}
+
+/* Premium Nav Link Underline & Glow Animation */
+.nav-link-premium {
+  position: relative;
+  font-family: var(--font-heading);
+  font-weight: 800 !important;
+  /* Ensure it is bold */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link-premium::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--color-accent);
+  transform-origin: bottom center;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 6px var(--color-accent);
+}
+
+.nav-link-premium:hover::after,
+.nav-link-premium.active-premium::after {
+  transform: scaleX(1);
+}
+
+.nav-link-premium:hover {
+  color: var(--color-accent) !important;
+  transform: translateY(-1px) scale(1.05);
+  text-shadow: 0 0 8px rgba(241, 88, 51, 0.4);
+}
+
+.nav-link-premium.active-premium {
+  color: var(--color-accent) !important;
+  text-shadow: 0 0 8px rgba(241, 88, 51, 0.25);
+}

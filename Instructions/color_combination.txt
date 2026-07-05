@@ -1,0 +1,22 @@
+ChildSpring Website Color System
+Usage	Color	HEX	Recommended For
+Primary	Indigo Blue	#2014B4	Logo, headings, primary buttons, links
+Secondary	Dark Teal	#004B6D	Navbar, footer, section titles
+Accent	Coral Orange	#EF5733	CTA buttons, highlights, hover effects
+Success	Vibrant Green	#1E9E34	Icons, checkmarks, positive sections
+Main Background	Soft White	#FAFCFF	Entire website background
+Section Background	Light Blue Gray	#F4F7FB	Alternate sections
+Card Background	Pure White	#FFFFFF	Cards, forms, service boxes
+Primary Text	Dark Slate	#1F2937	Paragraph text
+Secondary Text	Gray	#6B7280	Descriptions and subtitles
+Border/Divider	Light Gray	#E5E7EB	Borders and separators
+
+Gradients
+Gradient	Colors
+Primary Gradient	#2014B4 → #004B6D
+Accent Gradient	#EF5733 → #FF8B6A
+Nature Gradient	#1E9E34 → #4BC45F
+Recommended Color Ratio
+🟦 25% Brand Colors (#2014B4, #004B6D)
+🟧🟩 15% Accent Colors (#EF5733, #1E9E34)
+⬜ 60% Neutral Colors (#FAFCFF, #F4F7FB, #FFFFFF)

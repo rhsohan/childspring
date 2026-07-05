@@ -1,0 +1,206 @@
+ChildSpring – Contact Us Page Design Brief
+Objective
+Create a warm, supportive, and easy-to-use Contact Us page that helps parents, educators, schools, organizations, and community members connect with ChildSpring.
+Since the website is fully static and has no backend, database, or form submission system, the page should focus on providing clear contact information and multiple direct communication methods.
+The page should communicate:
+•	We are here to listen and support.
+•	Questions, collaborations, and partnerships are always welcome.
+•	Reaching out to ChildSpring is simple and encouraged.
+Desired Feelings: ❤️ Warm & Welcoming • 🌸 Supportive & Comforting • 🤝 Professional & Trustworthy • 🌍 Community-Centered & Approachable.
+________________________________________
+Design Personality
+A blend of:
+•	Family Support Center
+•	Child Development Organization
+•	Caring Educational Institution
+•	Community-Focused Non-Profit
+The design should avoid looking overly corporate or formal.
+________________________________________
+Color System
+•	Primary: Indigo Blue #2014B4
+•	Secondary: Dark Teal #004B6D
+•	Accent: Coral Orange #EF5733
+•	Success: Vibrant Green #1E9E34
+•	Backgrounds: #FAFCFF, #F4F7FB, #FFFFFF
+________________________________________
+Layout Structure
+Navbar → Hero → Welcome → Contact Information → Ways to Reach Us → Visit Our Center → Office Hours → Social Media → Partnership & Collaboration → FAQs → Emergency Support → Inspirational Quote → CTA → Footer.
+________________________________________
+Navigation Bar
+Sticky navigation.
+Menu: Home | Our Programs | Our Services & Products | Positive Parenting | About Us | Contact Us
+CTA Button: Get Support.
+________________________________________
+Hero Section
+Height: 60–70% viewport.
+Background: Indigo Blue → Dark Teal gradient with illustrations of:
+•	Parent and child
+•	Friendly staff
+•	Message bubbles
+•	Children and families
+•	Clouds and soft decorative shapes
+Hero Content
+🌸 We Are Here to Help
+Heading: Contact Us
+Subheading: Whether you are seeking support for your child, looking for parenting guidance, or interested in collaborating with us, we would love to hear from you.
+Buttons
+•	Call Us
+•	Email Us
+________________________________________
+Welcome Section
+Two-column layout.
+Left: Illustration of parents speaking with specialists in a friendly support environment.
+Right Heading: Let's Connect and Grow Together
+Description
+At ChildSpring, every child and every family matters. We welcome parents, educators, schools, organizations, and community members who want to connect, learn, collaborate, or seek guidance.
+________________________________________
+Get in Touch
+Display four large cards.
+1. Visit Us
+•	Office Address
+•	Landmark Information
+Description: Visit our center and learn more about our programs and services.
+________________________________________
+2. Call Us
+•	Primary Phone Number
+•	Secondary Phone Number
+Description: Call us for information, guidance, or appointments.
+Button: Call Now (direct phone links).
+________________________________________
+3. Email Us
+•	Official Email Address
+•	Support Email Address
+Description: Send us your questions or inquiries and we will be happy to connect with you.
+Button: Send Email (mailto links).
+________________________________________
+4. Follow Us
+•	Facebook
+•	Instagram
+•	LinkedIn
+•	YouTube
+Description: Stay connected and follow our journey.
+Card Design
+•	Large illustration
+•	Rounded corners
+•	Soft shadows
+•	Subtle hover effects
+•	Gradient accent border
+________________________________________
+Choose the Best Way to Connect
+Display four cards:
+📞 Phone Support – Inquiries, appointments, and guidance.
+📧 Email Support – Questions, collaborations, and information.
+🌐 Social Media – Updates, news, and community activities.
+🏢 Visit Our Center – In-person support and consultations.
+________________________________________
+Visit ChildSpring
+Display:
+•	Large embedded map
+•	Office Address
+•	Nearby Landmarks
+•	Directions Information
+________________________________________
+Office Hours
+Beautiful schedule cards.
+Monday – Friday: 9:00 AM – 6:00 PM
+Saturday: 9:00 AM – 2:00 PM
+Sunday: Closed
+Note: We encourage scheduling appointments to ensure the best support experience for every family.
+________________________________________
+Stay Connected
+Display social media cards.
+Facebook
+Stories, updates, and events.
+Instagram
+Moments, activities, and inspiration.
+LinkedIn
+Professional updates and partnerships.
+YouTube
+Educational videos and awareness content.
+Each card includes:
+•	Platform image
+•	Description
+•	Visit Page button
+________________________________________
+Partner With Us
+Description
+ChildSpring welcomes partnerships and collaborations with organizations that share our vision of creating a child-friendly and inclusive society.
+Display cards for:
+•	Schools & Educational Institutions
+•	Community Organizations
+•	Healthcare Professionals
+•	NGOs and Foundations
+•	Corporate Partners
+Each card includes:
+•	Illustration
+•	Short description
+•	Contact button
+________________________________________
+Frequently Asked Questions
+Accordion layout.
+Questions:
+•	How can I access ChildSpring's services?
+•	How can I enroll my child?
+•	Can schools collaborate with ChildSpring?
+•	How can I participate in workshops?
+•	How can organizations partner with ChildSpring?
+•	Where is ChildSpring located?
+________________________________________
+Emergency Support Notice
+Highlighted card using Coral Orange.
+Need Immediate Guidance?
+For urgent questions or support, please contact our team directly by phone or email.
+Display:
+•	Phone Number
+•	Email Address
+________________________________________
+Inspirational Quote
+Warm illustration background.
+"Every conversation is a step toward helping a child bloom."
+________________________________________
+Final Call-to-Action
+Background: Happy children and parents illustration.
+Heading
+We're Here for Every Child and Every Family.
+Description
+Whether you need support, guidance, or simply want to learn more, ChildSpring is ready to connect with you.
+Buttons
+•	Call Us
+•	Email Us
+________________________________________
+Footer
+Include:
+•	Quick Links
+•	Programs
+•	Services
+•	Contact Information
+•	Social Media Icons
+Footer Message
+Love . Care . Support
+Caring Children, Supporting Parents
+________________________________________
+Image Management Requirement
+All illustrations, banners, maps, social media graphics, background images, and icons must be loaded exclusively from:
+/core/image/
+Suggested structure:
+•	/core/image/contact/
+•	/core/image/social/
+•	/core/image/backgrounds/
+•	/core/image/illustrations/
+•	/core/image/maps/
+No external image URLs or CDN-hosted images should be used.
+________________________________________
+Static Website Requirement
+Because the website is fully static:
+•	No contact forms or form submissions.
+•	Use direct tel: links for phone numbers.
+•	Use mailto: links for emails.
+•	Use direct links to social media pages.
+•	Maps should be embedded using a public map URL.
+________________________________________
+Desired User Experience
+❤️ ChildSpring is approachable and caring.
+🌸 Reaching out is simple and comfortable.
+🤝 There are real people ready to help and support visitors.
+🌍 ChildSpring is a welcoming community dedicated to helping every child and family belong and bloom.
+

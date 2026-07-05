@@ -1,0 +1,190 @@
+ChildSpring – Home Page Design Brief
+Objective
+Create a modern, warm, child-friendly, and professional homepage that instantly builds trust, hope, and emotional connection. The page should communicate that ChildSpring is dedicated to supporting neurodiverse children and empowering parents through expert care, inclusive education, and positive parenting.
+Brand Identity: Child Development Center • Educational Institution • Family Support Organization • Healthcare & Counseling Service • Modern NGO.
+________________________________________
+Design Style
+•	Calm, welcoming, and inspiring.
+•	Soft rounded corners, large white spaces, card-based layouts, smooth transitions, and meaningful micro-animations.
+•	Combination of professional photography and friendly illustrations.
+•	Fully responsive across all devices.
+________________________________________
+Color System
+•	Primary: Indigo Blue #2014B4 – logo, headings, primary buttons.
+•	Secondary: Dark Teal #004B6D – navbar, footer, section titles.
+•	Accent: Coral Orange #EF5733 – CTAs and hover effects.
+•	Success: Vibrant Green #1E9E34 – icons and achievements.
+•	Backgrounds: #FAFCFF, #F4F7FB, #FFFFFF.
+________________________________________
+Typography
+•	Headings: Poppins Bold
+•	Body Text: Nunito / Open Sans
+•	Large readable typography, comfortable spacing, accessibility-focused, and mobile-friendly.
+________________________________________
+Page Structure
+1. Sticky Navigation Bar
+•	Transparent initially, solid on scroll.
+•	Left: ChildSpring round logo with tagline:
+o	Love . Care . Support
+o	Caring Children, Supporting Parents
+•	Menu: Home | Our Programs | Our Services & Products | Positive Parenting | About Us | Contact Us
+•	Mobile: Hamburger menu with slide-in navigation.
+________________________________________
+2. Hero Section
+Height: Nearly full-screen.
+Background: Soft gradient (#2014B4 → #004B6D) with subtle clouds, flowers, rainbows, stars, and abstract shapes.
+Left Content
+🌸 Welcome to ChildSpring
+Heading: Every Child Belongs and Blooms.
+Text: Supporting neurodiverse children and empowering parents through expert care, inclusive education, and positive parenting.
+Buttons:
+•	Explore Our Services
+•	Learn About Us
+Right Content
+Illustration featuring:
+•	Happy neurodiverse children
+•	Caring parents
+•	Teachers and specialists
+•	Inclusive learning environment
+Message: Love, Care, Support & Growth.
+________________________________________
+3. Floating Statistics Section
+Overlapping the hero section with four animated cards:
+🧩 Neurodiverse Support
+❤️ Positive Parenting
+👨‍👩‍👧 Family Guidance
+🌍 Inclusive Community
+Counters:
+•	10+ Programs
+•	30+ Services
+•	Endless Smiles
+•	100% Commitment
+________________________________________
+4. About ChildSpring Preview
+Left: Parents and children illustration.
+Right:
+Heading: Caring Children, Supporting Parents.
+Introduce ChildSpring as an organization committed to creating a world where every child is celebrated, supported, and empowered.
+Button: Learn More About Us.
+________________________________________
+5. Vision & Mission Section
+Vision
+Title: Our Vision
+An inclusive society where positive parenting is ensured and every neurodiverse child is celebrated, supported, and empowered.
+Mission
+•	Ensure positive parenting and empower every neurodiverse child.
+•	Lead a child-friendly, neuro-inclusive, and parenting-literate society.
+•	Create a world where every child belongs and blooms.
+•	Help every neurodiverse child bloom through positive parenting and expert care.
+________________________________________
+6. Featured Programs
+Background: Light Blue Gray.
+Heading: Our Programs
+Subtitle: Empowering children, parents, schools, and communities.
+Display program cards with:
+•	Program poster
+•	Title
+•	Short description
+•	Learn More button (opens detailed bio modal)
+Programs:
+•	Special Education
+•	Child Development
+•	Positive Parenting
+•	Pre-Schooling
+•	Community Building
+•	School Development
+View More → Programs Page
+________________________________________
+7. Featured Services
+Heading: Our Services
+Service cards containing illustration, short description, and Explore button.
+Services:
+1.	Autism & NDD Support
+2.	Child Development Services
+3.	Parent Counselling
+4.	Parent Education & Training
+View More → Services Page
+________________________________________
+8. Why Families Choose ChildSpring
+Background with soft decorative shapes.
+Display six cards:
+•	Expert Care
+•	Inclusive Environment
+•	Personalized Guidance
+•	Parent Empowerment
+•	Community Building
+•	Holistic Development
+________________________________________
+9. Positive Parenting Highlight
+Warm family image background.
+Heading: Positive Parenting Begins with Understanding.
+Text: Helping parents build stronger relationships with their children through knowledge, guidance, and support.
+Button: Explore Positive Parenting.
+________________________________________
+10. Testimonials
+Heading: What Parents Say
+Slider cards containing:
+•	Parent image
+•	Name
+•	Child's age
+•	Feedback
+________________________________________
+11. Our Initiatives & Community
+Image-card layout featuring:
+•	Community Awareness Programs
+•	Workshops
+•	Seminars
+•	Parent Support Groups
+•	School Collaborations
+________________________________________
+12. Final Call-to-Action
+Illustration of children and parents.
+Heading: Together, Let's Help Every Child Bloom.
+Text: Join our mission of building an inclusive and child-friendly society.
+Buttons:
+•	Contact Us
+•	Explore Programs
+________________________________________
+13. Footer
+Left
+•	Logo
+•	Love . Care . Support
+•	Short organization description
+Quick Links
+Home | Our Programs | Our Services & Products | Positive Parenting | About Us | Contact Us
+Services
+•	Autism Support
+•	Child Development
+•	Parent Counselling
+•	Parent Education
+Contact
+Address | Phone | Email | Social Media Icons
+Bottom Footer
+© Copyright Information
+Made with love for every child and every family.
+________________________________________
+Desired User Feeling
+❤️ This organization genuinely cares about children.
+🤝 This is a trustworthy place for parents.
+🌸 Every child is welcomed and supported here.
+🌍 ChildSpring is building a better future for children and families.
+________________________________________
+Image Management Requirement
+All images used throughout the ChildSpring website—including logos, illustrations, program posters, service images, testimonials, banners, icons, backgrounds, and community photos—must be stored and loaded from a centralized folder named:
+/core/image/
+Rules
+•	Do not use external image URLs or CDN-hosted images.
+•	Every page and component should fetch images only from the core/image directory.
+•	Organize images into subfolders if necessary, for example:
+o	/core/image/logo/
+o	/core/image/hero/
+o	/core/image/programs/
+o	/core/image/services/
+o	/core/image/testimonials/
+o	/core/image/community/
+o	/core/image/backgrounds/
+•	Use optimized image formats and responsive images to ensure fast loading and better performance.
+This image management system will make the website easier to maintain, update, and deploy.
+________________________________________
+________________________________________
+________________________________________

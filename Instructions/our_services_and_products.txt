@@ -1,0 +1,251 @@
+ChildSpring – Our Services & Products Page Design Brief
+Objective
+Create a professional, warm, and visually engaging page that serves as the central hub for all ChildSpring services, products, training, counseling, and developmental resources. The page should demonstrate that ChildSpring is a complete ecosystem supporting:
+•	Neurodiverse children
+•	Parents and families
+•	Teachers and schools
+•	Communities and professionals
+The page should instantly answer:
+1.	What services does ChildSpring provide?
+2.	Who can benefit from these services?
+3.	How can ChildSpring support my child, family, or institution?
+________________________________________
+Design Personality
+❤️ Compassionate & Caring
+🌸 Child-Friendly & Warm
+🎓 Professional & Educational
+🤝 Supportive & Trustworthy
+✨ Modern & Premium
+________________________________________
+Layout Structure
+Navbar → Hero → Introduction → Services Overview → Service Categories → Service Modals → Products → Free Resources → Why Choose ChildSpring → FAQs → CTA → Footer
+________________________________________
+Navigation Bar
+Sticky navigation, transparent initially and solid on scroll.
+Menu: Home | Our Programs | Our Services & Products | Positive Parenting | About Us | Contact Us
+CTA Button: Get Support / Book Consultation
+________________________________________
+Hero Section
+Height: 75% viewport.
+Background: Indigo Blue → Dark Teal gradient with illustrations of:
+•	Child therapist and child
+•	Parents supporting children
+•	Teachers and students
+•	Books and learning materials
+•	Development toys and puzzle pieces
+•	Clouds and soft shapes
+Content
+🌸 Professional Care and Guidance for Every Family
+Heading: Our Services & Products
+Subheading: Supporting children, empowering parents, strengthening schools, and creating inclusive communities through expert services and educational resources.
+Buttons:
+•	Explore Services
+•	Contact Us
+________________________________________
+Introduction Section
+Two-column layout.
+Left: Illustration of child psychologist, parents, children, teachers, and inclusive learning environment.
+Right Heading: Comprehensive Support for Children, Parents, and Communities
+Introduce ChildSpring's commitment to:
+•	Autism and NDD support
+•	Child development
+•	Parent counseling
+•	Positive parenting education
+•	Teacher development
+•	Community awareness
+•	Educational resources
+________________________________________
+Our Professional Services
+Subtitle: Providing personalized support and professional guidance for every stage of a child's development.
+Display five large service cards using banner images instead of icons.
+All images must be loaded only from:
+/core/image/services/
+Example images:
+•	autism-support.jpg
+•	child-development.jpg
+•	parent-counselling.jpg
+•	parent-education.jpg
+•	teacher-development.jpg
+Service Card Design
+•	Large banner image
+•	Service title
+•	Short description
+•	View Details button
+Hover Effects
+•	Slight upward movement
+•	Banner image zoom
+•	Stronger shadow
+•	Smooth button transition
+________________________________________
+Service Details Modal
+Clicking View Details opens a large centered modal (no page redirect).
+Features
+•	Rounded corners
+•	Soft shadows
+•	Dark overlay
+•	Scrollable content
+•	Smooth animations
+Modal Structure
+•	Service banner with title and tagline
+•	About This Service
+•	Services Included
+•	Who Can Benefit (Children, Parents, Teachers, Schools, Communities)
+•	Benefits
+•	Process Timeline:
+Assessment → Planning → Intervention → Support → Growth
+•	CTA:
+o	Contact Us
+o	Explore Programs
+________________________________________
+Service Categories
+1. Autism & NDD Support Services
+Providing specialized educational, developmental, and psychological support.
+Services Included
+•	Special Education for Children with Autism and NDD
+•	Management and Care of Children with Autism and NDD
+•	One-to-One Session for Children with NDD and Autism
+•	Child Psychological Assessment
+•	Child Behavioural Assessment
+•	Autism and ADHD Management Advice
+•	IQ Testing of Children
+•	Individual Education Plan for Children
+•	Autism, NDD and ADHD Related Other Services
+•	Parents Counselling and Psychological Support
+________________________________________
+2. Child Development Services
+Supporting cognitive, emotional, behavioral, and social development.
+Services Included
+•	Child Development Advice
+•	Child and Adolescent Counselling
+•	Child Psychological Assessment
+•	Child IQ Assessment
+•	Child Behavioural Assessment
+•	Individual Child Development Plan
+•	Children Individual Education Plan
+•	Adolescent Counselling
+•	Emotional Intelligence Assessment
+•	Emotional Intelligence Development
+•	Social Assessment and Socialization Planning
+•	Speech and Language Development
+________________________________________
+3. Parent Counselling & Advisory Services
+Helping parents improve relationships and parenting skills.
+Services Included
+•	Parenting Assessment
+•	Parents Counselling
+•	Positive Parenting Advice
+•	Parents Psychological Assessment
+•	Parents Couple Counselling
+•	Parents Psychological Support
+•	Pregnancy Counselling and Advice
+•	Psychological Support during Pregnancy
+________________________________________
+4. Parents Education & Training
+Equipping parents with practical knowledge and skills.
+Services Included
+•	Positive Parenting Certificate Course
+•	Positive Parenting Workshop and Training
+•	Parenting Seminar and Webinar
+•	Tailored Parenting Training
+________________________________________
+5. School & Teacher Development
+Building inclusive and child-friendly learning environments.
+Services Included
+•	Inclusive School Development Plan
+•	Child Friendly School Development Planning
+•	School Based Teachers Training
+•	School Based Teachers Workshop
+•	Tailored Teachers Workshops on Demand
+•	Tailored Teachers Training on Demand
+________________________________________
+Our Products & Resources
+Subtitle: Practical tools and educational resources for children, parents, teachers, and professionals.
+All product images must come only from:
+/core/image/products/
+Product Categories
+•	Parenting Guides
+•	Educational Books
+•	Learning Materials
+•	Developmental Tools
+•	Worksheets & Activity Books
+•	Training Resources
+•	Autism & NDD Awareness Materials
+•	Child Development Resources
+Product Cards
+•	Product poster
+•	Product name
+•	Short description
+•	View Details button
+Product Modal
+•	About Product
+•	Features
+•	Benefits
+•	Preview Images
+•	Who Can Use It
+•	Contact Button
+________________________________________
+Free Resources
+Resource cards for:
+•	Parenting Guides
+•	Child Development Checklists
+•	Educational Worksheets
+•	Awareness Materials
+•	Brochures and Booklets
+________________________________________
+Why Choose ChildSpring
+Display six feature cards:
+•	Expert Guidance
+•	Personalized Care
+•	Inclusive Approach
+•	Parent Empowerment
+•	Professional Team
+•	Community Building
+________________________________________
+Frequently Asked Questions
+Accordion-style FAQs:
+•	Who can receive services?
+•	How do I get support?
+•	Can schools collaborate?
+•	Are resources available for parents?
+•	How can I contact ChildSpring?
+________________________________________
+Final Call-to-Action
+Background illustration of parents and children.
+Heading: Every Child Deserves Love, Care, and Support.
+Description: Together, we can help every child grow, learn, and bloom.
+Buttons:
+•	Contact Us
+•	Explore Programs
+________________________________________
+Footer
+Include:
+•	Quick Links
+•	Service Links
+•	Product Links
+•	Contact Information
+•	Social Media Icons
+•	Newsletter Subscription
+•	Copyright
+Footer Message
+Love . Care . Support
+Caring Children, Supporting Parents
+________________________________________
+Desired User Experience
+❤️ ChildSpring genuinely cares about children and families.
+🌸 Professional support is available for every stage of development.
+🎓 Expert services and educational resources are easily accessible.
+🤝 ChildSpring is a trusted partner in helping every child belong and bloom.
+________________________________________
+Image Management Requirement
+All website images, banners, posters, illustrations, galleries, and product images must be loaded exclusively from:
+/core/image/
+Suggested structure:
+•	/core/image/services/
+•	/core/image/products/
+•	/core/image/gallery/
+•	/core/image/backgrounds/
+•	/core/image/illustrations/
+No external image URLs or CDN-hosted images should be used.
+________________________________________
+________________________________________
+________________________________________

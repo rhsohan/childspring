@@ -1,0 +1,211 @@
+ChildSpring Website – Technology Stack & Project Structure
+(Static Website with CMS Support)
+________________________________________
+1. Technology Stack
+Purpose	Technology	Why Use It
+Frontend Framework	React	Component-based development
+Build Tool	Vite	Fast development and build
+Styling	Tailwind CSS	Responsive and modern UI
+Routing	React Router	Multiple pages without reloading
+Animations	Framer Motion	Smooth page and modal animations
+Scroll Animation	AOS	Fade and scroll effects
+Sliders	Swiper	Gallery and testimonial sliders
+Icons	Lucide	Modern icons
+CMS	Decap CMS
+Update content without coding
+Hosting	GitHub Pages
+Free lifetime hosting
+Version Control	GitHub
+Source code management
+________________________________________
+2. Project Architecture
+User
+   ↓
+React Website
+   ↓
+Data Files / Decap CMS
+   ↓
+GitHub Repository
+   ↓
+GitHub Pages
+No Backend ❌
+No Database ❌
+Fully Static Website ✅
+________________________________________
+3. Recommended Folder Structure
+childspringbd/
+│
+├── public/
+│   ├── images/
+│   │   ├── hero/
+│   │   ├── programs/
+│   │   ├── services/
+│   │   ├── products/
+│   │   ├── gallery/
+│   │   ├── team/
+│   │   └── testimonials/
+│   │
+│   ├── resources/
+│   │   ├── pdf/
+│   │   ├── brochures/
+│   │   └── certificates/
+│   │
+│   └── admin/
+│       ├── index.html
+│       └── config.yml
+│
+├── src/
+│
+│   ├── assets/
+│   │   ├── logo/
+│   │   ├── icons/
+│   │   └── illustrations/
+│   │
+│   ├── components/
+│   │   ├── Navbar/
+│   │   ├── Footer/
+│   │   ├── Hero/
+│   │   ├── Button/
+│   │   ├── Card/
+│   │   ├── Modal/
+│   │   ├── Timeline/
+│   │   ├── Gallery/
+│   │   ├── FAQ/
+│   │   ├── CTA/
+│   │   └── Loader/
+│   │
+│   ├── layouts/
+│   │   └── MainLayout.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home/
+│   │   ├── Programs/
+│   │   ├── Services/
+│   │   ├── PositiveParenting/
+│   │   ├── About/
+│   │   └── Contact/
+│   │
+│   ├── data/
+│   │   ├── programs.js
+│   │   ├── services.js
+│   │   ├── products.js
+│   │   ├── team.js
+│   │   ├── testimonials.js
+│   │   ├── faq.js
+│   │   ├── contact.js
+│   │   └── gallery.js
+│   │
+│   ├── hooks/
+│   │   ├── useModal.js
+│   │   └── useScroll.js
+│   │
+│   ├── routes/
+│   │   └── AppRoutes.jsx
+│   │
+│   ├── styles/
+│   │   └── globals.css
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+└── README.md
+________________________________________
+4. Website Pages
+/
+├── Home
+├── Our Programs
+├── Our Services & Products
+├── Positive Parenting
+├── About Us
+└── Contact Us
+________________________________________
+5. Reusable Components
+Common Components
+Navbar
+Footer
+Button
+Hero Section
+Cards
+Gallery
+Timeline
+Accordion
+Modal
+CTA Section
+________________________________________
+6. Data Management
+Since there is no database:
+Programs → programs.js
+Services → services.js
+Products → products.js
+Team → team.js
+Gallery → gallery.js
+FAQ → faq.js
+Contact → contact.js
+All content comes from these files.
+________________________________________
+7. Using Decap CMS
+CMS collections:
+Programs
+Services
+Products
+Team
+Gallery
+Testimonials
+Contact Information
+Resources
+Admin Panel:
+yourwebsite.com/admin
+________________________________________
+8. Features to Include
+UI Features
+✅ Responsive Design
+✅ Dark Mode (Optional)
+✅ Modals
+✅ Image Gallery
+✅ Testimonials Slider
+✅ Scroll Animations
+✅ PDF Downloads
+✅ Embedded Google Map
+✅ Mobile Navigation
+✅ Sticky Header
+✅ Search in Programs & Services (Frontend Only)
+________________________________________
+9. Deployment Process
+Code Changes
+      ↓
+Push to GitHub
+      ↓
+GitHub Actions Build
+      ↓
+GitHub Pages
+      ↓
+Live Website Updated
+________________________________________
+10. Future Expansion
+If needed later:
+React
++ Node.js
++ Express
++ MongoDB
+can easily be added without rebuilding the frontend.
+________________________________________
+Final Recommended Stack
+Frontend      : React + Vite
+Styling        : Tailwind CSS
+Routing        : React Router
+Animation      : Framer Motion + AOS
+Slider         : Swiper
+CMS            : Decap CMS
+Hosting        : GitHub Pages
+Version Control: GitHub
+This stack is:
+✅ Free
+✅ Fast
+✅ SEO Friendly
+✅ Easy to Maintain
+✅ Perfect for ChildSpring's static NGO website
+✅ Can be updated by non-technical staff through Decap CMS without needing a backend or database.
+

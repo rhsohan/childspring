@@ -1,0 +1,212 @@
+ChildSpring – Our Programs Page Design Brief
+Objective
+Create an inspiring and professional Our Programs page that showcases ChildSpring's initiatives and communicates that the organization is a movement dedicated to:
+•	Supporting neurodiverse children
+•	Empowering parents
+•	Building inclusive schools
+•	Creating community awareness
+•	Developing a child-friendly society
+Desired Feelings: Hopeful, informed, inspired, and connected.
+________________________________________
+Design Personality
+🌸 Warm & welcoming
+❤️ Compassionate & caring
+🌍 Inclusive & community-driven
+🎓 Educational & professional
+✨ Modern & visually engaging
+________________________________________
+Color System
+•	Primary: Indigo Blue #2014B4 – headings, buttons, program titles.
+•	Secondary: Dark Teal #004B6D – navbar, section titles, footer.
+•	Accent: Coral Orange #EF5733 – CTAs, highlights, hover effects.
+•	Success: Vibrant Green #1E9E34 – growth and achievement sections.
+•	Backgrounds: #FAFCFF, #F4F7FB, #FFFFFF.
+________________________________________
+Layout Structure
+Navbar → Hero → Introduction → Programs Grid → Program Journey → Program Impact → Why Our Programs Matter → Gallery Preview → Call to Action → Footer.
+________________________________________
+Navigation Bar
+Sticky navigation with:
+•	Home
+•	Our Programs
+•	Our Services & Products
+•	Positive Parenting
+•	About Us
+•	Contact Us
+Right-side CTA: Get Support or Contact Us.
+________________________________________
+Hero Section
+Height: 70–80% viewport.
+Background: Indigo Blue → Dark Teal gradient with illustrations of children learning, parents, teachers, books, clouds, stars, and rainbow accents.
+Content
+•	🌸 Empowering Every Child and Family
+•	Heading: Our Programs
+•	Subheading: Building a world where every child belongs, every parent feels supported, and every community embraces inclusion.
+•	Buttons:
+o	Explore Programs
+o	Contact Us
+________________________________________
+Introduction Section
+Two-column layout.
+Left: Illustration of neurodiverse children, parents, teachers, and an inclusive classroom.
+Right
+Programs Designed for Growth, Inclusion, and Empowerment
+Introduce ChildSpring's commitment to:
+•	Child development
+•	Positive parenting
+•	Inclusive education
+•	Community building
+•	Awareness and advocacy
+________________________________________
+Our Programs Section
+Subtitle
+Supporting children, empowering parents, strengthening schools, and building communities.
+Grid Layout
+•	Desktop: 3 cards per row
+•	Tablet: 2 cards per row
+•	Mobile: 1 card per row
+Program Card Design
+•	Large poster image (60% of card)
+•	Program title
+•	Short description
+•	View Details button
+Hover Effects
+•	Slight image zoom
+•	Card lift animation
+•	Enhanced shadow
+•	Highlighted button
+________________________________________
+Image Management
+Every program uses a dedicated poster image.
+All images must be loaded only from:
+/core/image/programs/
+Example files:
+•	special-education.jpg
+•	support-care.jpg
+•	child-development.jpg
+•	positive-parenting.jpg
+•	preschool.jpg
+•	community.jpg
+•	awareness.jpg
+•	resources.jpg
+•	school-development.jpg
+•	cultural.jpg
+No external image URLs or CDNs should be used.
+________________________________________
+Programs List
+1. Special Education for Children with NDD and Autism
+Providing specialized educational support and individualized learning opportunities for neurodiverse children.
+2. Special Support and Care for Neurodiverse Children
+Providing personalized care that nurtures emotional, social, and developmental growth.
+3. Child Development and Positive Parenting
+Helping children and parents grow together through expert guidance and positive parenting.
+4. Positive Parenting and Parents Education
+Empowering parents with knowledge and practical skills for raising healthy and happy children.
+5. Pre-Schooling
+Creating a nurturing and stimulating environment that prepares children for lifelong learning.
+6. Community Building and Movement
+Building strong communities that support neurodiverse children and their families.
+7. Public Awareness and Social Development
+Promoting awareness, inclusion, and child rights through community engagement.
+8. NDD and Parenting Products, Tools and Resources
+Providing educational tools and parenting resources that support child development.
+9. School and Teachers Development
+Supporting schools and teachers with inclusive educational practices and professional development.
+10. Cultural and Extra-Curricular Development
+Encouraging creativity, confidence, and social skills through arts and extracurricular activities.
+________________________________________
+Program Details Modal
+Clicking View Details opens a large centered modal (no page redirect).
+Modal Features
+•	Rounded corners
+•	Dark overlay
+•	Soft shadow
+•	Smooth animation
+•	Scrollable content
+Modal Sections
+•	Large banner image
+•	Program title and tagline
+•	About This Program
+•	Objectives (checklist)
+•	Who Can Benefit:
+o	Children
+o	Parents
+o	Teachers
+o	Schools
+o	Communities
+•	Key Activities (timeline)
+•	Program Benefits (cards)
+•	Program Gallery (slider)
+•	CTA:
+o	Contact Us
+o	Explore Our Services
+All modal images must come from:
+/core/image/programs/
+________________________________________
+Program Journey Section
+Heading
+How Our Programs Create Impact
+Timeline
+Assessment → Planning → Support → Development → Community Inclusion
+________________________________________
+Program Impact Section
+Heading
+Creating Positive Change
+Cards:
+🌱 Child Development
+❤️ Family Empowerment
+🏫 Inclusive Education
+🌍 Community Awareness
+________________________________________
+Why Our Programs Matter
+Beautiful infographic:
+Child
+↓
+Family
+↓
+School
+↓
+Community
+↓
+Society
+Illustrating ChildSpring's long-term impact.
+________________________________________
+Gallery Preview
+Image grid featuring:
+•	Learning sessions
+•	Parent workshops
+•	Community events
+•	Preschool activities
+•	Teacher training
+•	Cultural programs
+All images must be loaded from:
+/core/image/gallery/
+________________________________________
+Final Call-to-Action
+Warm illustration of children and parents.
+Heading
+Together We Can Help Every Child Bloom.
+Description
+Join our mission of creating an inclusive, child-friendly, and parenting-literate society.
+Buttons
+•	Explore Services
+•	Contact Us
+________________________________________
+Footer
+Include:
+•	Quick Links
+•	Programs Links
+•	Contact Information
+•	Social Media Icons
+•	Newsletter Section
+•	Tagline: Love . Care . Support
+________________________________________
+Desired User Feeling
+❤️ ChildSpring genuinely cares about children and families.
+🌸 Meaningful programs exist for every stage of child development.
+🤝 Parents, schools, and communities can actively participate.
+🌍 ChildSpring is building a world where every child belongs and blooms.
+________________________________________
+________________________________________
+________________________________________
+

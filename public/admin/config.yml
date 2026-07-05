@@ -1,0 +1,57 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/core/image"
+public_folder: "/core/image"
+
+collections:
+  - name: "programs"
+    label: "Programs"
+    folder: "src/data/programs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Tagline", name: "tagline", widget: "string" }
+      - { label: "Short Description", name: "shortDescription", widget: "text" }
+      - { label: "Long Description", name: "longDescription", widget: "text" }
+      - { label: "Cover Image", name: "image", widget: "image" }
+      - { label: "Objectives", name: "objectives", widget: "list" }
+      - { label: "Who Benefits", name: "whoBenefits", widget: "list" }
+      - { label: "Benefits", name: "benefits", widget: "list", fields: [
+          { label: "Title", name: "title", widget: "string" },
+          { label: "Description", name: "description", widget: "string" }
+        ]}
+      - { label: "Timeline", name: "timeline", widget: "list", fields: [
+          { label: "Phase", name: "phase", widget: "string" },
+          { label: "Title", name: "title", widget: "string" },
+          { label: "Description", name: "description", widget: "string" }
+        ]}
+
+  - name: "services"
+    label: "Services"
+    folder: "src/data/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Tagline", name: "tagline", widget: "string" }
+      - { label: "Short Description", name: "shortDescription", widget: "text" }
+      - { label: "Long Description", name: "longDescription", widget: "text" }
+      - { label: "Cover Image", name: "image", widget: "image" }
+      - { label: "Services Included", name: "servicesIncluded", widget: "list" }
+      - { label: "Who Benefits", name: "whoBenefits", widget: "list" }
+      - { label: "Benefits", name: "benefits", widget: "list" }
+      - { label: "Process", name: "process", widget: "list" }
+
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "src/data/testimonials"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Child Age", name: "childAge", widget: "string" }
+      - { label: "Feedback", name: "feedback", widget: "text" }
+      - { label: "Parent Image", name: "image", widget: "image" }
