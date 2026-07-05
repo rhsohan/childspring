@@ -309,8 +309,8 @@ const Contact = () => {
               <a href={`tel:${contactInfo.phonePrimary}`} className="bg-white text-red-500 px-8 py-3 rounded-full font-heading font-bold hover:scale-105 transition-transform flex items-center gap-2 shadow-lg">
                 <PhoneCall className="w-5 h-5" /> {contactInfo.phonePrimary}
               </a>
-              <a href={`mailto:${contactInfo.emailSupport}`} className="bg-red-600 border border-red-400 text-white px-8 py-3 rounded-full font-heading font-bold hover:bg-red-700 hover:border-transparent transition-all flex items-center gap-2 shadow-lg">
-                <Mail className="w-5 h-5" /> {contactInfo.emailSupport}
+              <a href={`mailto:${contactInfo.emailOfficial}`} className="bg-red-600 border border-red-400 text-white px-8 py-3 rounded-full font-heading font-bold hover:bg-red-700 hover:border-transparent transition-all flex items-center gap-2 shadow-lg">
+                <Mail className="w-5 h-5" /> {contactInfo.emailOfficial}
               </a>
             </div>
           </div>

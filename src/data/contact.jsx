@@ -11,28 +11,28 @@ export const socialLinks = [
   { 
     platform: "Facebook", 
     desc: "Stories, updates, and events.", 
-    url: "https://facebook.com/childspring",
+    url: "https://www.facebook.com/",
     color: "bg-blue-600",
     hoverColor: "hover:bg-blue-700"
   },
   { 
     platform: "Instagram", 
     desc: "Moments, activities, and inspiration.", 
-    url: "https://instagram.com/childspring",
+    url: "https://www.instagram.com/",
     color: "bg-pink-600",
     hoverColor: "hover:bg-pink-700"
   },
   { 
     platform: "LinkedIn", 
     desc: "Professional updates and partnerships.", 
-    url: "https://linkedin.com/company/childspring",
+    url: "https://www.linkedin.com/",
     color: "bg-sky-700",
     hoverColor: "hover:bg-sky-800"
   },
   { 
     platform: "YouTube", 
     desc: "Educational videos and awareness content.", 
-    url: "https://youtube.com/childspring",
+    url: "https://www.youtube.com/",
     color: "bg-red-600",
     hoverColor: "hover:bg-red-700"
   }

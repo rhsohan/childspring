@@ -541,7 +541,7 @@ export default function Home() {
 
               <div className="flex-shrink-0">
                 <Link
-                  to="/parenting"
+                  to="/positive-parenting"
                   className="group/btn relative overflow-hidden inline-flex items-center justify-center space-x-2 bg-white/15 backdrop-blur-lg border border-white/30 text-white px-8 py-4 rounded-full font-heading font-bold uppercase tracking-widest text-xs hover:shadow-[0_0_30px_rgba(241,88,51,0.4)] transition-all duration-500 hover:scale-105 will-change-transform"
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-accent to-[#FF8A66] opacity-0 group-hover/btn:opacity-100 transition-opacity duration-500" />
